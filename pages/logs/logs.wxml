@@ -1,2 +1,14 @@
-<!--pages/logs/logs.wxml-->
-<text>pages/logs/logs.wxml</text>
+<view class="indexlog">
+  <!-- 轮播区域 -->
+  <swiper class="banners" indicator-dots indicator-color='ivory' indicator-active-color="#d43c33" autoplay="true">
+    <swiper-item>
+      <image src="/static/images/nvsheng.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/images/nvsheng.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/images/nvsheng.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
