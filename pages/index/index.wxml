@@ -1,0 +1,8 @@
+<view class="indexContainer">
+  <image wx:if="{{userInfo.avatarUrl}}" class="userImageUrl" src="{{userInfo.avatarUrl}}"/>
+  <button wx:else open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">获取授权</button>
+  <text class="userName">{{userInfo.nickName}}</text>
+  <view class="go" catchtap="tologs">
+    <text>First</text>
+  </view>
+</view>
